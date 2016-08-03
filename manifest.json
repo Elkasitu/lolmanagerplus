@@ -1,0 +1,17 @@
+{
+
+	"manifest_version": 2,
+	"name": "lolmanagerplus",
+	"version": "1.0",
+	
+	"description": "Adds miscellaneous features to https://www.lolmanager.gg"
+	
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://lolmanager.gg/strategy/choose"],
+			"js": ["lolmanagerplus.js"]
+		}
+	]
+
+}
