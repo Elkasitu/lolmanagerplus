@@ -4,7 +4,7 @@
 	"name": "lolmanagerplus",
 	"version": "1.0",
 	
-	"description": "Adds miscellaneous features to https://www.lolmanager.gg"
+	"description": "Adds miscellaneous features to https://www.lolmanager.gg",
 	
 	"content_scripts": 
 	[
