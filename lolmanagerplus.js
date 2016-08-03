@@ -1,5 +1,3 @@
-function translateToRiot()
-{
 	var champElems = document.getElementsByClassName("champion-name");
 	
 	for (i = 0; i < champElems.length; i++)
@@ -132,3 +130,6 @@ function translateToRiot()
 		}
 	}
 }
+
+document.body.style.border = "5px solid red";
+window.onload = translateToRiot;

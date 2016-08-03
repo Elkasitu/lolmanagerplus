@@ -9,7 +9,7 @@
 	"content_scripts": 
 	[
 		{
-			"matches": ["*://lolmanager.gg/strategy/choose"],
+			"matches": ["*://lolmanager.gg/*"],
 			"js": ["lolmanagerplus.js"]
 		}
 	]
